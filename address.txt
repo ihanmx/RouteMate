@@ -1,0 +1,1 @@
+http://localhost/web project/index.php

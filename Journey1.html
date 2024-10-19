@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="./img/logo.jpg" type="image/x-icon" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simulated Driver Tracking - RouteMate</title>
+    <!DOCTYPE html>
+    <html lang="en">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Simulated Driver Tracking - RouteMate</title>
+        <style>
+          body {
+            font-family: "Arial", sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url("https://th.bing.com/th/id/R.7c49c1eb8fb425b6a02c65b7c9119d80?rik=3mqGBkhhrZWCqA&riu=http%3a%2f%2fcdn.wallpapersafari.com%2f45%2f91%2fWTF0EG.jpg&ehk=pXDTkSu4JMfztvqnMcHEJlg40%2bP5ryv28LdMISnNa%2f4%3d&risl=&pid=ImgRaw&r=0");
+            background-size: cover;
+            background-position: center;
+            color: #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+          }
+          h2 {
+            text-align: center;
+            color: #333;
+          }
+          .map-box {
+            width: 100vh;
+            height: 100vh;
+            border-radius: 8px;
+            position: relative;
+            align-items: center;
+          }
+        </style>
+      </head>
+      <body>
+        <div class="map-box">
+          <h2>Journy Tracking</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d8626.364840781387!2d46.53961803057361!3d24.62576532959655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDM3JzI1LjUiTiA0NsKwMzInMDguNiJF!5e0!3m2!1sar!2ssa!4v1700776469347!5m2!1sar!2ssa"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <br /><br /><br />
+          <input type="button" value="Current location" onclick="B1();" />
+          <input type="button" value="Destination:" onclick="B2();" />
+        </div>
+        <script type="text/javascript">
+          function B2() {
+            window.location.href = "./Journey2.html";
+          }
+
+          function B1() {
+            window.location.href = "./Journey1.html";
+          }
+        </script>
+         
+      </body>
+    </html>
+  </head>
+</html>
